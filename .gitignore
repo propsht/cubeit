@@ -1,0 +1,7 @@
+#cashe
+__pycache__
+.pytest-cashes
+
+
+# Virtual enviroment
+venv
