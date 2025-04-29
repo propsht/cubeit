@@ -1,0 +1,30 @@
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+.gitignore
+#cashe
+__pycache__
+.pytest-cashes
+# Virtual enviroment
+venv
+
+
+pip install pytest-playwright
+playwright install
+
+pytest -v --headed -slowmo=500
+
+
+
+Add New Interpreter
+
+➔ Existing environment
+
+➔ Choose cubeit2/.venv/bin/python
+
+playwright install
+
+
+_________run lockalhost
+python -m http.server 8000
